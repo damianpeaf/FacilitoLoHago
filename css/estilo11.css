@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+		*{
+
+			font-family: 'Fjalla One', sans-serif;
+		}
+
+		table{
+			
+			margin: auto;
+			margin-top: 65px;
+			text-align: center;
+			padding: 25px;
+			background: rgba(0,0,0,.3);
+			border-radius: 7px;
+		}
+
+		textarea{
+				
+				margin-top: 20px;
+				width: 80%;
+				height: 30%;
+
+		}
+
+		input{
+
+			background: linear-gradient(-90deg, #362CF9, #475BF4);
+			color: #fff;
+			border: 2px solid black;
+			padding: 10px;
+			border-radius: 4px;
+
+		}
+
+	.btn{
+
+		background: white;
+		color: black;
+		
+	}

@@ -1,0 +1,146 @@
+@import
+	Color fondo: #632432;
+	Color header: 246355;
+	Color borde: 0F362D;
+	Color iluminado: 369681;
+
+body{
+	background-color: #632432;
+	font-family: Arial;
+}
+
+
+.titulo{
+
+	padding-top: 65px;
+	text-align: center;
+	padding-bottom: 0px;
+	font-size: 24px;
+}
+
+.input{
+
+	width: 200px;
+
+}
+
+#centro{
+
+	text-align: center;
+}
+
+
+table{
+
+	padding-top: 30px;
+	background-color: white;
+	text-align: left;
+	border-spacing: 0;
+	/*border-collapse: collapse;*/
+	margin: auto;
+	max-width: 750px;
+}
+
+
+
+table th, td{
+	padding: 7px;
+	border: 1px solid #D9D7D7;
+}
+
+
+
+tr:nth-child(even){
+	background-color: #ddd;
+}
+
+
+
+.cholo{
+
+	text-decoration: none;
+}
+
+#resultados{
+
+	padding-top: 30px;
+	width: 90%;
+	height: auto;
+	margin: auto;
+
+}
+
+.resul {
+
+	padding: 10px;
+	background: #fff;
+	border-top: 1px solid #0C197E;
+	border-bottom:  1px solid #0C197E;
+	border-right: 1px solid #0C197E;
+	border-left: 3px solid #0C197E;
+	position: relative;
+
+}
+
+/*
+.resul p{
+
+	background: red;
+	border: 1px solid black;
+}*/
+
+#profesion{
+
+	font-size: 18px;
+	color: #1531AB;
+
+}
+
+.resul img{
+
+	float: right;
+
+	height: 100px;
+	width: 100px;
+}
+
+/*a{
+
+	text-decoration: none;
+}*/
+
+#lugar{
+
+	margin-left: 5px;
+	font-size: 16px;
+
+}
+
+#descripcion{
+
+	margin-left: 7px;
+	font-size: 14px;
+
+}
+
+
+#rating{
+
+	margin-top: 10px;
+	margin-left: 10px;
+	font-size: 12;
+}
+
+#rating span{
+
+	color: #AEBA27;
+
+}
+
+
+#trabajos{
+
+	margin-left: 10px;
+	font-size: 12;
+	color: #BB3068
+}

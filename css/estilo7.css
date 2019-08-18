@@ -1,0 +1,52 @@
+
+
+div{
+
+	 margin-top: 100px;
+}
+
+div.contenedor1{
+        text-align: center;
+       
+}
+
+ 
+
+div.centerTable table {
+
+
+       margin: 0 auto;
+       margin-top: 65px;
+       border-spacing: 0;
+}
+
+td{
+
+	padding: 5px;
+	border: black solid 1px;
+	text-align: center;
+
+}
+
+th{
+
+	background: rgba(0,15,112,1) 51%;
+	border-bottom: 2px solid #999999;
+	border-right: rgba(100, 100, 100, .3) solid px;
+	padding: 10px;
+	color: white;
+}
+
+#titulo{
+
+	padding: 5px;
+	border: none;
+	text-align: center;
+	background: #fff;
+
+}
+
+
+tr:hover td{
+	background-color: #EFF2F1;
+}

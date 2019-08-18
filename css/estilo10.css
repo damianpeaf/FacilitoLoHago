@@ -1,0 +1,47 @@
+*{
+
+	margin: 0;
+	padding: 0;
+	
+}
+
+table{
+
+	margin: auto;
+
+
+}
+
+.tbl1{
+
+	padding-top: 65px;
+	width: 70%;
+}
+
+td{
+
+	padding: 5px;
+	border-bottom: 3px solid #2D2C2C;
+	border-right: 1px solid black;
+	background: rgba(255,255,255,.7);
+
+}
+
+th{
+
+background: rgba(20, 45, 160, 1);
+color: white;
+	border-right: 3px solid #21273D;
+	padding: 10PX;
+
+}
+
+
+.cont1{
+
+	background: rgba(120, 120, 120, .3);
+	width: 100%;
+	height: 500px;
+	border-bottom: solid black 2px;
+
+}

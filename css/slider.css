@@ -1,0 +1,90 @@
+.content{
+
+
+ max-height: 100px; 
+position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.parrafo{
+
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	padding: 15px;
+	font-size: 35px;
+}
+
+.btn{
+
+	position: absolute;
+	bottom: -100px;
+	left: 40%;
+	padding: 7px;
+	background: #2F4BB5;
+	border: 1px solid #0D0486;
+}
+
+.btn a{
+
+	text-decoration: none;
+	color: white;
+}
+
+.f2{
+	background: #DEDEDE;
+	margin: auto;
+	padding: 30px;
+
+
+}
+
+.titulo{
+/*background: #DEDEDE;*/
+		font-size: 30px;
+	padding: 10px;
+
+}
+
+.slider{
+
+	padding-top: 70px;
+	width: 75%;
+	margin: auto;
+	overflow: hidden;
+	height: 100%;
+	background: #fff;
+}
+
+.slider ul{
+display: flex;
+padding: 0;
+width: 400%;
+
+animation: cambio 20s infinite alternate;
+}
+
+.slider li{
+	width: 100%;
+	list-style: none;
+}
+
+.slider img{
+	width: 100%;
+}
+
+@keyframes cambio{
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+
+}

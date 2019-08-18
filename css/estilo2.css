@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+
+
+*{
+
+	box-sizing: border-box;
+}
+
+body{
+
+	margin: 0;
+	font-family: 'Fjalla One', sans-serif;
+	/*background: #FFF;*/
+	/*background: linear-gradient(-135deg, #c850c0, #4158d0);*/
+	background-attachment:fixed;
+
+}
+
+.formR{
+
+	width: 95%;
+	max-width: 500px;
+	margin: auto;
+	background: white;
+	border-radius: 7px;
+	border: 1px solid gray;
+}
+
+.tit{
+
+	background: linear-gradient(-90deg, #010024, #010F4C);
+	color: white;
+	padding: 20px;
+	text-align: center;
+	font-weight: 100;
+	font-size: 30px;
+	border-top-left-radius:  7px;
+	border-top-right-radius:  7px;
+	border-bottom: 5px solid #2833C0;
+}
+
+.contenedor-input{
+
+	padding: 10px 30px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+}
+
+input{
+
+	margin-bottom: 15px; 
+	padding: 15px;
+	font-size: 16px;
+	border-radius: 3px;
+	border: 2px solid darkgray;
+}
+
+.inputP{
+
+	width: 46%;
+}
+
+.inputG{
+
+	width: 100%;
+}
+
+.btnE{
+
+	background: #3373D4;
+	color: white;
+	margin: auto;
+	padding: 10px 40px;
+
+}
+
+.yaTiene{
+	
+	width: 100%;
+	margin: 7px;
+	font-size:  14px;
+	text-align: center;
+
+
+}
+
+.btnE:active{
+
+	transform: scale(1.05);
+
+}
+
+select {
+ 
+ 	margin: 15px;
+     font-size: 14px;
+     height: 30px;
+     padding: 5px;
+     width: 250px;
+  }
+
+  .selectG{
+
+	
+
+  }

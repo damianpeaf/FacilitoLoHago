@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+
+	font-family: 'Fjalla One', sans-serif;
+	background: #eceff1;
+
+
+}
+
+#contenedor-general{
+
+	width: 95%;
+	height: auto;
+	margin: auto;
+	position: relative;
+	
+
+}
+
+#contenedor-principal{
+
+
+	width: 59%;
+	height: auto;
+	padding-top: 65px;
+	background: #fff;
+	float: left;
+
+}
+
+#contenedor-lado{
+
+	width: 40%;
+	height: auto;
+	padding-top: 65px;
+	background: #e3e6e9;
+	float: right;
+	margin-bottom: 100px;
+
+}
+
+#perfil{
+
+	text-align: center;	
+
+}
+
+#info{
+
+	padding: 7px;
+
+}
+
+#perfil img{
+
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+
+}
+
+.center{
+
+	text-align: center;
+
+}
+
+footer{
+
+	width: 100%;
+	bottom: 0;
+	position: fixed;
+	background: #7C7C7C;
+	text-align: center;
+	line-height: 3;
+}
+
+footer button {
+
+	padding: 7px;
+	background: #DF2F2F;
+	border: solid black 2px;
+	color: white;
+
+}
+
+#peticion{
+
+	padding: 5px;
+	line-height: 2;
+	background: crimson;
+	border: none;
+	border-radius: 5px;
+
+}
+
+#peticion a{
+	
+	color: #fff;
+	text-decoration: none;
+
+}
+
+
+#imagenes{
+
+	background: #fff;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	text-align: center;
+
+
+}
+
+#imagenes img{
+
+	width: 75%;
+	height: auto;
+
+}
+
+#descrip2{
+
+	padding: 3px;
+	line-height: 1;
+	text-align: left;
+	font-weight: 1;
+	margin-bottom: 50px;
+	font-size: 14px;
+}
+
+#cajaComentarios{
+
+	width: 95%;
+	height: 50px;
+	min-height: 50px;
+	min-width: 95%;
+	max-width: 95%;
+	max-height: 50px;
+
+}
+
+.comentarioP{
+
+	margin: auto;
+	width: 95%;
+
+}
+
+#comentarioComentario{
+
+	font-size: 13px;
+	font-weight: 1;
+	padding-bottom: 3px;
+	padding-top: 3px;
+padding-left: 25px;
+background: #C8DDE2;
+border-bottom-right-radius: 7px;
+	border-bottom-left-radius: 7px
+
+
+}
+
+#nombreComentario{
+
+	font-size: 16px;
+	background: #9AC6F7;
+	border-top-right-radius: 7px;
+	border-top-left-radius: 7px;
+	padding: 3px;
+
+}
+
+#mostrandoComentarios{
+	margin-bottom: 15px;
+
+
+}
+
+
+#titulo10{
+
+	margin-top: 20px;
+	
+}
+
+#btnComentar{
+
+	margin-bottom: 50px;
+
+}
